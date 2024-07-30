@@ -34,7 +34,7 @@ const BudgetForm = () => {
                     name="budget"
                     placeholder="Ejemplo: 300"
                     className="w-full bg-white border border-gray-400 p-2"
-                    value={budget}
+                    value={budget === 0 ? '' : budget}
                     onChange={handleChage}
                 />
             </div>
